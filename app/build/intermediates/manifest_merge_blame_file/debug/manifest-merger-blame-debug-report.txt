@@ -1,0 +1,123 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.newapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/k3ntar/AndroidStudioProjects/NewAPP/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->/Users/k3ntar/AndroidStudioProjects/NewAPP/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/k3ntar/AndroidStudioProjects/NewAPP/app/src/main/AndroidManifest.xml:4:5-83
+11-->/Users/k3ntar/AndroidStudioProjects/NewAPP/app/src/main/AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" />
+12-->/Users/k3ntar/AndroidStudioProjects/NewAPP/app/src/main/AndroidManifest.xml:5:5-102
+12-->/Users/k3ntar/AndroidStudioProjects/NewAPP/app/src/main/AndroidManifest.xml:5:22-83
+13
+14    <application
+14-->/Users/k3ntar/AndroidStudioProjects/NewAPP/app/src/main/AndroidManifest.xml:6:5-24:19
+15        android:allowBackup="true"
+15-->/Users/k3ntar/AndroidStudioProjects/NewAPP/app/src/main/AndroidManifest.xml:7:9-35
+16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+16-->[androidx.core:core:1.7.0] /Users/k3ntar/.gradle/caches/transforms-3/b82358ebd4da77596455246aebec4aa6/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+17        android:debuggable="true"
+18        android:icon="@mipmap/ic_launcher"
+18-->/Users/k3ntar/AndroidStudioProjects/NewAPP/app/src/main/AndroidManifest.xml:8:9-43
+19        android:label="@string/app_name"
+19-->/Users/k3ntar/AndroidStudioProjects/NewAPP/app/src/main/AndroidManifest.xml:9:9-41
+20        android:roundIcon="@mipmap/ic_launcher_round"
+20-->/Users/k3ntar/AndroidStudioProjects/NewAPP/app/src/main/AndroidManifest.xml:10:9-54
+21        android:supportsRtl="true"
+21-->/Users/k3ntar/AndroidStudioProjects/NewAPP/app/src/main/AndroidManifest.xml:11:9-35
+22        android:theme="@style/Theme.NewAPP" >
+22-->/Users/k3ntar/AndroidStudioProjects/NewAPP/app/src/main/AndroidManifest.xml:12:9-44
+23        <activity
+23-->/Users/k3ntar/AndroidStudioProjects/NewAPP/app/src/main/AndroidManifest.xml:13:9-23:20
+24            android:name="com.example.newapp.MainActivity"
+24-->/Users/k3ntar/AndroidStudioProjects/NewAPP/app/src/main/AndroidManifest.xml:14:13-41
+25            android:exported="true"
+25-->/Users/k3ntar/AndroidStudioProjects/NewAPP/app/src/main/AndroidManifest.xml:15:13-36
+26            android:label="@string/app_name"
+26-->/Users/k3ntar/AndroidStudioProjects/NewAPP/app/src/main/AndroidManifest.xml:16:13-45
+27            android:theme="@style/Theme.NewAPP.NoActionBar" >
+27-->/Users/k3ntar/AndroidStudioProjects/NewAPP/app/src/main/AndroidManifest.xml:17:13-60
+28            <intent-filter>
+28-->/Users/k3ntar/AndroidStudioProjects/NewAPP/app/src/main/AndroidManifest.xml:18:13-22:29
+29                <action android:name="android.intent.action.MAIN" />
+29-->/Users/k3ntar/AndroidStudioProjects/NewAPP/app/src/main/AndroidManifest.xml:19:17-69
+29-->/Users/k3ntar/AndroidStudioProjects/NewAPP/app/src/main/AndroidManifest.xml:19:25-66
+30
+31                <category android:name="android.intent.category.LAUNCHER" />
+31-->/Users/k3ntar/AndroidStudioProjects/NewAPP/app/src/main/AndroidManifest.xml:21:17-77
+31-->/Users/k3ntar/AndroidStudioProjects/NewAPP/app/src/main/AndroidManifest.xml:21:27-74
+32            </intent-filter>
+33        </activity>
+34        <activity
+34-->[androidx.compose.ui:ui-tooling:1.0.1] /Users/k3ntar/.gradle/caches/transforms-3/463eb1a643a203157e904343d8705ff9/transformed/jetified-ui-tooling-1.0.1/AndroidManifest.xml:25:9-27:39
+35            android:name="androidx.compose.ui.tooling.PreviewActivity"
+35-->[androidx.compose.ui:ui-tooling:1.0.1] /Users/k3ntar/.gradle/caches/transforms-3/463eb1a643a203157e904343d8705ff9/transformed/jetified-ui-tooling-1.0.1/AndroidManifest.xml:26:13-71
+36            android:exported="true" />
+36-->[androidx.compose.ui:ui-tooling:1.0.1] /Users/k3ntar/.gradle/caches/transforms-3/463eb1a643a203157e904343d8705ff9/transformed/jetified-ui-tooling-1.0.1/AndroidManifest.xml:27:13-36
+37
+38        <service
+38-->[androidx.room:room-runtime:2.4.1] /Users/k3ntar/.gradle/caches/transforms-3/a4086dd421dfcc0763195b52c102d6b4/transformed/room-runtime-2.4.1/AndroidManifest.xml:25:9-28:40
+39            android:name="androidx.room.MultiInstanceInvalidationService"
+39-->[androidx.room:room-runtime:2.4.1] /Users/k3ntar/.gradle/caches/transforms-3/a4086dd421dfcc0763195b52c102d6b4/transformed/room-runtime-2.4.1/AndroidManifest.xml:26:13-74
+40            android:directBootAware="true"
+40-->[androidx.room:room-runtime:2.4.1] /Users/k3ntar/.gradle/caches/transforms-3/a4086dd421dfcc0763195b52c102d6b4/transformed/room-runtime-2.4.1/AndroidManifest.xml:27:13-43
+41            android:exported="false" />
+41-->[androidx.room:room-runtime:2.4.1] /Users/k3ntar/.gradle/caches/transforms-3/a4086dd421dfcc0763195b52c102d6b4/transformed/room-runtime-2.4.1/AndroidManifest.xml:28:13-37
+42
+43        <provider
+43-->[androidx.emoji2:emoji2:1.0.0] /Users/k3ntar/.gradle/caches/transforms-3/0704a7f20329c2a74375e230510c2eb6/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+44            android:name="androidx.startup.InitializationProvider"
+44-->[androidx.emoji2:emoji2:1.0.0] /Users/k3ntar/.gradle/caches/transforms-3/0704a7f20329c2a74375e230510c2eb6/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:27:13-67
+45            android:authorities="com.example.newapp.androidx-startup"
+45-->[androidx.emoji2:emoji2:1.0.0] /Users/k3ntar/.gradle/caches/transforms-3/0704a7f20329c2a74375e230510c2eb6/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:28:13-68
+46            android:exported="false" >
+46-->[androidx.emoji2:emoji2:1.0.0] /Users/k3ntar/.gradle/caches/transforms-3/0704a7f20329c2a74375e230510c2eb6/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:29:13-37
+47            <meta-data
+47-->[androidx.emoji2:emoji2:1.0.0] /Users/k3ntar/.gradle/caches/transforms-3/0704a7f20329c2a74375e230510c2eb6/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+48                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+48-->[androidx.emoji2:emoji2:1.0.0] /Users/k3ntar/.gradle/caches/transforms-3/0704a7f20329c2a74375e230510c2eb6/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+49                android:value="androidx.startup" />
+49-->[androidx.emoji2:emoji2:1.0.0] /Users/k3ntar/.gradle/caches/transforms-3/0704a7f20329c2a74375e230510c2eb6/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+50            <meta-data
+50-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/k3ntar/.gradle/caches/transforms-3/97f8a6d14b71fbdf9dea046d2cf3177a/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+51                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+51-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/k3ntar/.gradle/caches/transforms-3/97f8a6d14b71fbdf9dea046d2cf3177a/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+52                android:value="androidx.startup" />
+52-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/k3ntar/.gradle/caches/transforms-3/97f8a6d14b71fbdf9dea046d2cf3177a/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+53            <meta-data
+53-->[androidx.profileinstaller:profileinstaller:1.1.0-rc01] /Users/k3ntar/.gradle/caches/transforms-3/97102936f534fa2b4803beac594bc03f/transformed/jetified-profileinstaller-1.1.0-rc01/AndroidManifest.xml:31:13-33:52
+54                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+54-->[androidx.profileinstaller:profileinstaller:1.1.0-rc01] /Users/k3ntar/.gradle/caches/transforms-3/97102936f534fa2b4803beac594bc03f/transformed/jetified-profileinstaller-1.1.0-rc01/AndroidManifest.xml:32:17-85
+55                android:value="androidx.startup" />
+55-->[androidx.profileinstaller:profileinstaller:1.1.0-rc01] /Users/k3ntar/.gradle/caches/transforms-3/97102936f534fa2b4803beac594bc03f/transformed/jetified-profileinstaller-1.1.0-rc01/AndroidManifest.xml:33:17-49
+56        </provider>
+57
+58        <receiver
+58-->[androidx.profileinstaller:profileinstaller:1.1.0-rc01] /Users/k3ntar/.gradle/caches/transforms-3/97102936f534fa2b4803beac594bc03f/transformed/jetified-profileinstaller-1.1.0-rc01/AndroidManifest.xml:36:9-45:20
+59            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+59-->[androidx.profileinstaller:profileinstaller:1.1.0-rc01] /Users/k3ntar/.gradle/caches/transforms-3/97102936f534fa2b4803beac594bc03f/transformed/jetified-profileinstaller-1.1.0-rc01/AndroidManifest.xml:37:13-76
+60            android:directBootAware="false"
+60-->[androidx.profileinstaller:profileinstaller:1.1.0-rc01] /Users/k3ntar/.gradle/caches/transforms-3/97102936f534fa2b4803beac594bc03f/transformed/jetified-profileinstaller-1.1.0-rc01/AndroidManifest.xml:38:13-44
+61            android:enabled="true"
+61-->[androidx.profileinstaller:profileinstaller:1.1.0-rc01] /Users/k3ntar/.gradle/caches/transforms-3/97102936f534fa2b4803beac594bc03f/transformed/jetified-profileinstaller-1.1.0-rc01/AndroidManifest.xml:39:13-35
+62            android:exported="true"
+62-->[androidx.profileinstaller:profileinstaller:1.1.0-rc01] /Users/k3ntar/.gradle/caches/transforms-3/97102936f534fa2b4803beac594bc03f/transformed/jetified-profileinstaller-1.1.0-rc01/AndroidManifest.xml:40:13-36
+63            android:permission="android.permission.DUMP" >
+63-->[androidx.profileinstaller:profileinstaller:1.1.0-rc01] /Users/k3ntar/.gradle/caches/transforms-3/97102936f534fa2b4803beac594bc03f/transformed/jetified-profileinstaller-1.1.0-rc01/AndroidManifest.xml:41:13-57
+64            <intent-filter>
+64-->[androidx.profileinstaller:profileinstaller:1.1.0-rc01] /Users/k3ntar/.gradle/caches/transforms-3/97102936f534fa2b4803beac594bc03f/transformed/jetified-profileinstaller-1.1.0-rc01/AndroidManifest.xml:42:13-44:29
+65                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+65-->[androidx.profileinstaller:profileinstaller:1.1.0-rc01] /Users/k3ntar/.gradle/caches/transforms-3/97102936f534fa2b4803beac594bc03f/transformed/jetified-profileinstaller-1.1.0-rc01/AndroidManifest.xml:43:17-91
+65-->[androidx.profileinstaller:profileinstaller:1.1.0-rc01] /Users/k3ntar/.gradle/caches/transforms-3/97102936f534fa2b4803beac594bc03f/transformed/jetified-profileinstaller-1.1.0-rc01/AndroidManifest.xml:43:25-88
+66            </intent-filter>
+67        </receiver>
+68    </application>
+69
+70</manifest>
