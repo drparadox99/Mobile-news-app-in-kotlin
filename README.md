@@ -1,7 +1,7 @@
 
 # Outlet - Mobile News App
 
-Outlet is a mobile news application developed in Kotlin for Android. The app aggregates news from various outlets and organizes it by countries and categories. Users can filter news by regions like France, USA, UK, and Greece, and view general news articles. This project aims to offer users a customizable and personalized news reading experience.
+Outlet is a mobile news application developed in Kotlin and Java for Android. The app aggregates news from various outlets and organizes it by countries and categories. Users can filter news by regions like France, USA, UK, and Greece, and view general news articles. This project aims to offer users a customizable and personalized news reading experience.
 
 ![Capture d’écran 2025-01-08 à 11 16 25](https://github.com/user-attachments/assets/7514ca2c-452b-41ba-870d-9be53b230ed7)
 
@@ -10,7 +10,7 @@ Outlet is a mobile news application developed in Kotlin for Android. The app agg
 
 The Outlet app is designed to deliver personalized news feeds from different countries and outlets in real-time. The app features a sleek and responsive UI, allowing users to quickly browse, save, and share news articles. Users can filter news based on regions and categories, making it easy to stay informed about the topics that matter most.
 
-The app is developed using Kotlin and follows Android development best practices, leveraging features like Jetpack Components, ViewModel, Retrofit, and more to create a robust and maintainable codebase.
+The app is developed using Kotlin and Java and follows Android development best practices, leveraging features like Jetpack Components, ViewModel, Retrofit, and more to create a robust and maintainable codebase.
 
 
 # Features
