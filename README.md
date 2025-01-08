@@ -3,6 +3,8 @@
 
 Outlet is a mobile news application developed in Kotlin for Android. The app aggregates news from various outlets and organizes it by countries and categories. Users can filter news by regions like France, USA, UK, and Greece, and view general news articles. This project aims to offer users a customizable and personalized news reading experience.
 
+![Capture d’écran 2025-01-08 à 11 16 25](https://github.com/user-attachments/assets/7514ca2c-452b-41ba-870d-9be53b230ed7)
+
 
 # Overview 
 
@@ -26,3 +28,20 @@ Responsive Design: Designed for mobile with a responsive UI, offering a great ex
 **RecyclerView**: For displaying lists of news articles.
 **SharedPreferences**: To save user preferences (e.g., favorited articles).
 **Material Design**: For creating a modern, responsive UI.
+
+# Getting Started 
+
+**Prerequisites**
+Android Studio installed on your machine.
+Git (optional) for version control.
+
+**How to run**
+  - Clone project 
+  - Launch Android Studio and select Open an existing Android Studio project
+  - Sync Gradle
+  - Connect your Android device or start an emulator
+  - Run button in Android Studio to build and install the app on your device
+
+# License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
